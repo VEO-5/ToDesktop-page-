@@ -3,7 +3,7 @@ import React from 'react';
 export const Footer = () => {
    return (
       <footer className="bg-white pt-20 pb-10 md:pt-32 md:pb-16 border-t border-slate-100">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32">
             <div className="flex flex-col lg:flex-row justify-between items-start mb-20 gap-12 md:gap-20">
                <div className="max-w-xs">
                   <div className="flex items-center gap-3 mb-6">
@@ -18,27 +18,27 @@ export const Footer = () => {
                   <div>
                     <h5 className="font-black text-slate-900 mb-5 uppercase tracking-wider text-xs">Product</h5>
                     <ul className="space-y-3 font-bold text-slate-500">
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Electron App</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Auto-updates</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Pricing</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Security</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Electron App</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Auto-updates</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Pricing</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Security</a></li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-black text-slate-900 mb-5 uppercase tracking-wider text-xs">Resources</h5>
                     <ul className="space-y-3 font-bold text-slate-500">
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Docs</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Blog</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Changelog</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Contact</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Docs</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Blog</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Changelog</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Contact</a></li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-black text-slate-900 mb-5 uppercase tracking-wider text-xs">Legal</h5>
                     <ul className="space-y-3 font-bold text-slate-500">
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Privacy</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">Terms</a></li>
-                       <li><a href="#" className="hover:text-blue-600 transition-colors">DPA</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Privacy</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">Terms</a></li>
+                       <li><a href="#" className="hover:text-indigo-600 transition-colors">DPA</a></li>
                     </ul>
                   </div>
                </div>

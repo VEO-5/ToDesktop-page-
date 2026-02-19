@@ -6,7 +6,7 @@ export const CTASection = () => {
     <section className="bg-[#09090b] py-28 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-900/10 rounded-full blur-[120px] pointer-events-none"></div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-16 md:gap-24">
           <div className="flex-1 text-center md:text-left">
              <span className="text-indigo-400 font-bold text-[10px] uppercase tracking-[0.2em] mb-4 block">Ready to ship?</span>
@@ -17,8 +17,8 @@ export const CTASection = () => {
                Stop wasting engineering cycles on build pipelines. ToDesktop automates your entire Electron ops stack.
              </p>
              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <button className="px-7 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg active:scale-95">Start free trial &rarr;</button>
-                <button className="px-7 py-3.5 bg-white/5 border border-white/10 hover:bg-white/10 text-white font-bold text-sm rounded-xl transition-all active:scale-95">Read the docs</button>
+                <button className="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg active:scale-95">Start free trial &rarr;</button>
+                <button className="px-8 py-4 bg-white/5 border border-white/10 hover:bg-white/10 text-white font-bold text-sm rounded-xl transition-all active:scale-95">Read the docs</button>
              </div>
           </div>
           

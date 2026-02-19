@@ -4,7 +4,7 @@ import { Check, Cpu } from 'lucide-react';
 export const FeatureBento = () => {
   return (
     <section id="features" className="py-24 md:py-32 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32">
         <div className="text-center max-w-2xl mx-auto mb-20 md:mb-28">
           <span className="text-indigo-600 font-black text-[10px] uppercase tracking-[0.2em] mb-4 block">Capabilities</span>
           <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 font-display tracking-tight">The complete stack <br /> for Electron teams</h2>
@@ -13,7 +13,7 @@ export const FeatureBento = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <BentoCard 
             title="Simplified Infrastructure" 
             desc="We handle the complex build pipelines for Mac, Windows, and Linux, so you can keep focusing on your product."

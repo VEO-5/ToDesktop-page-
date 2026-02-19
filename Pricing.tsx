@@ -6,7 +6,7 @@ export const Pricing = () => {
 
   return (
     <section id="pricing" className="py-24 md:py-32 bg-white">
-       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32">
           <div className="text-center mb-20 md:mb-28">
              <span className="text-indigo-600 font-black text-[10px] uppercase tracking-[0.2em] mb-4 block">Pricing</span>
              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 font-display tracking-tight">Choose your plan</h2>
@@ -23,7 +23,7 @@ export const Pricing = () => {
              </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
              <PlanCard 
                title="Essential" 
                desc="Ideal for solo founders and side projects." 
@@ -62,7 +62,7 @@ const PlanCard = ({ title, desc, price, features, highlight = false }: any) => (
        <span className="text-5xl font-black tracking-tight">${price}</span>
        <span className={`text-xs font-bold ${highlight ? 'text-slate-500' : 'text-slate-400'}`}>/mo</span>
     </div>
-    <button className={`w-full py-3.5 text-sm font-bold rounded-xl mb-10 transition-all active:scale-95 ${highlight ? 'bg-indigo-600 text-white hover:bg-indigo-500 shadow-indigo-900/20' : 'bg-slate-900 text-white hover:bg-slate-800'}`}>
+    <button className={`w-full py-4 text-sm font-bold rounded-xl mb-10 transition-all active:scale-95 ${highlight ? 'bg-indigo-600 text-white hover:bg-indigo-500 shadow-indigo-900/20' : 'bg-slate-900 text-white hover:bg-slate-800'}`}>
       Start 7-day trial
     </button>
     <ul className="space-y-4 text-[13px] font-bold mt-auto">
