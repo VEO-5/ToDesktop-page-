@@ -14,43 +14,43 @@ export const Hero = () => {
   );
 
   return (
-    <div id="home" className="relative pt-32 pb-20 md:pt-44 md:pb-28 overflow-hidden bg-[#f7f8f9]">
+    <div id="home" className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-[#f7f8f9]">
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-grid opacity-[0.3] pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32 relative z-10 text-center">
         {/* Release Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/60 shadow-sm text-slate-600 text-[10px] md:text-xs font-bold mb-10 transition-all hover:border-slate-300 backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/60 shadow-sm text-slate-600 text-[10px] md:text-xs font-bold mb-8 transition-all hover:border-slate-300 backdrop-blur-sm">
           <span className="flex h-1.5 w-1.5 rounded-full bg-indigo-500"></span>
           V0.24.1 RELEASED
           <span className="text-slate-300">•</span>
           <a href="#" className="hover:text-indigo-600 transition-colors underline decoration-slate-200 underline-offset-4">Changelog &rarr;</a>
         </div>
 
-        {/* Heading */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight text-slate-900 mb-8 leading-[1.05] font-display">
+        {/* Heading - Reduced Size */}
+        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-slate-900 mb-6 leading-[1.1] font-display">
           Release, Secure <br className="hidden sm:block" />
           and Scale your <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-blue-600 to-indigo-700">App</span>
         </h1>
         
-        {/* Description */}
-        <p className="text-base sm:text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-12 leading-relaxed font-medium">
+        {/* Description - Slightly tighter margins */}
+        <p className="text-base sm:text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
           ToDesktop handles the heavy lifting so you can focus on building. <br className="hidden md:block" />
           Seamless deployment and automated infrastructure in one click.
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
-          <button className="w-full sm:w-auto px-8 py-4 text-sm font-bold text-white bg-slate-900 rounded-xl hover:bg-slate-800 transition-all shadow-lg active:scale-95">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+          <button className="w-full sm:w-auto px-8 py-3.5 text-sm font-bold text-white bg-slate-900 rounded-xl hover:bg-slate-800 transition-all shadow-lg active:scale-95">
             Start free trial
           </button>
-          <button className="w-full sm:w-auto px-8 py-4 text-sm font-bold text-slate-600 bg-white border border-slate-200 rounded-xl hover:border-slate-300 transition-all shadow-sm active:scale-95">
+          <button className="w-full sm:w-auto px-8 py-3.5 text-sm font-bold text-slate-600 bg-white border border-slate-200 rounded-xl hover:border-slate-300 transition-all shadow-sm active:scale-95">
             View documentation
           </button>
         </div>
 
         {/* Core Value Props */}
-        <div className="flex flex-wrap justify-center gap-8 md:gap-14 text-slate-400 text-[10px] font-black mb-24">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-14 text-slate-400 text-[10px] font-black mb-20">
           <div className="flex items-center gap-2.5">
             <UploadCloud size={14} className="text-indigo-500" />
             <span className="uppercase tracking-[0.2em]">Easy Upload</span>
@@ -65,7 +65,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Dashboard Preview */}
+        {/* Dashboard Preview - Slightly more compact scaling */}
         <div className="relative max-w-4xl mx-auto">
           <div className="rounded-2xl border border-slate-200/80 bg-white p-2 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.12)]">
              <div className="bg-[#111111] rounded-xl overflow-hidden aspect-video flex flex-col relative">
@@ -92,8 +92,8 @@ export const Hero = () => {
       </div>
       
       {/* Logos Marquee Section */}
-      <div className="mt-28 md:mt-36 text-center overflow-hidden">
-        <p className="text-[10px] font-black text-slate-400 mb-12 uppercase tracking-[0.4em] opacity-80">Trusted by modern engineering teams</p>
+      <div className="mt-24 md:mt-32 text-center overflow-hidden">
+        <p className="text-[10px] font-black text-slate-400 mb-10 uppercase tracking-[0.4em] opacity-80">Trusted by modern engineering teams</p>
         <div className="marquee-container relative w-full overflow-hidden opacity-40 grayscale transition-all hover:opacity-70 hover:grayscale-0 duration-700">
           <div className="animate-marquee flex w-max text-slate-500">
              <LogoSet />
